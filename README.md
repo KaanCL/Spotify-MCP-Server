@@ -28,8 +28,8 @@ Model-Context-Protocol (MCP) is a framework that allows AI models and assistants
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/spotify-mcp.git
-   cd spotify-mcp
+   git clone https://github.com/KaanCL/Spotify-MCP-Server.git
+   cd Spotify-MCP-Server
    ```
 
 2. Set up a virtual environment:
@@ -74,7 +74,7 @@ When you run the MCP server for the first time:
 
 Run the MCP server:
 ```bash
-python main.py
+uv run mcp install main.py
 ```
 
 The server will initialize and register the following MCP tools that can be called by clients:
